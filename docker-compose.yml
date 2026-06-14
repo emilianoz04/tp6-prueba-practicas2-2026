@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${PHP_PORT}:80"
+    volumes:
+      - ./src:/var/www/html
+    env_file:
+      - .env
+    container_name: app_pdf_mail
+
