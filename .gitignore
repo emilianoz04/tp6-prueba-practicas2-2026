@@ -1,0 +1,5 @@
+.env
+src/vendor/
+src/assets/*.pdf
+src/assets/*.png
+*.log
