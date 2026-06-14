@@ -1,6 +1,6 @@
 services:
   app:
-    build:
+    build: 
       context: .
       dockerfile: Dockerfile
     ports:
@@ -10,4 +10,3 @@ services:
     env_file:
       - .env
     container_name: app_pdf_mail
-
